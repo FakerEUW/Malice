@@ -1,0 +1,38 @@
+html, body {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+    padding-top: 56px;
+  }
+}
+
+.div-link-project {
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px 0px #656565;
+    transition: all .5s ease-in-out;
+}
+.div-link-project:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/* Styling footer */
+footer {
+    height: 7vh;
+    width: 100%;
+}
+footer p {
+    padding-top: 15px;
+}
+.title-home {
+    margin-left: 20vw;
+}

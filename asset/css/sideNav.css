@@ -1,0 +1,53 @@
+/* The side navigation menu */
+.sideNav {
+    height: 100vh; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0vh; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sideNav li {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #949494;
+    display: block;
+    transition: 0.3s;
+}
+.sideNav ul li a {
+    text-decoration: none;
+    color: #949494;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sideNav li:hover {
+    color: #d3d3d3;;
+}
+
+/* Position and style the close button (top right corner) */
+.sideNav .closebtn {
+    margin-left: 15px;
+}
+
+p {
+    position: absolute;
+    margin-top: -11vh;
+    cursor: default;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sideNav {padding-top: 15px;}
+    .sideNav a {font-size: 18px;}
+}
+
+.NSFWfootertext {
+    opacity: 0;
+}

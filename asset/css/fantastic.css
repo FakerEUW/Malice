@@ -1,0 +1,25 @@
+.contain-form-fantastic {
+    margin-top: 5vh;
+}
+
+#projectsdatas {
+    position: absolute;
+    left: 40vw;
+    top: 15vh;
+    max-width: 50vw;
+}
+#projectsdatas ul li {
+    background-color: black;
+    color: antiquewhite
+}
+.data-title {
+    font-size: 1.8em;
+    text-align: center;
+}
+.data-content {
+    font-size: 1.2em;
+}
+.data-user {
+    font-size: 1.5em;
+    text-align: center;
+}

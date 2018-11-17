@@ -1,0 +1,18 @@
+.page-content {
+    margin-left: 20vw;
+    margin-top: 20vh;
+}
+.p-title {
+    margin-left: 25vw;
+}
+.p-text {
+    margin-top: .1vh;
+    margin-left: 12vh;
+    width: 50vw;
+    text-align: justify;
+}
+footer {
+    margin-top: 85.6vh;
+    text-align: center;
+}
+

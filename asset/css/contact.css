@@ -1,0 +1,9 @@
+html, body {
+    background-image: url(../img/backgrounddetraqueur.jpg);
+    background-size: cover;
+}
+
+.contain-form {
+    border-radius: 15px;
+    margin-top:15vh;
+}

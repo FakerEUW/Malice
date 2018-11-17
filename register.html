@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Malicious</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="asset/css/general.css" rel="stylesheet">
+    <link href="asset/css/register.css" rel="stylesheet">
+
+    <!-- Style for Side Navigation -->
+    <link href="asset/css/sideNav.css" rel="stylesheet">
+
+    <!-- Multiple styles for buttons -->
+    <link href="asset/css/buttonStyle.css" rel="stylesheet">
+
+    <!-- Font Family, Ubunru Mono, monospace -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <button class="btn-hover color-1" onclick="window.location='index.html'">Go back home</button>
+
+    <div class="row">
+        <div class="col-sm-1 col-md-3"></div>
+        <form action="connection/register.php" method="POST" class="col-sm-10 col-md-6">
+            <div class="form-group">
+                <label for="firstname">Firstname :</label>
+                <input class="form-control" type="text" name="firstname" id="firstname" placeholder="Enter your firstname">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Lastname :</label>
+                <input class="form-control" type="text" name="lastname" id="lastname" placeholder="Enter your lastname">
+            </div>
+            <div class="form-group">
+                <label for="Email">E-mail :</label>
+                <input class="form-control" type="email" name="Email" id="Email" placeholder="Enter your e-mail">
+            </div>
+            <div class="form-group">
+                <label for="Pseudonyme">Pseudonyme :</label>
+                <input class="form-control" type="text" name="Pseudonyme" id="Pseudonyme" placeholder="Choose your pseudo">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password :</label>
+                <input class="form-control" type="password" name="password_customer" id="Password" placeholder="Choose a password">
+            </div>
+            <div class="form-group">
+                <label for="PasswordConfirm">Confirm Password :</label>
+                <input class="form-control" type="password" name="PasswordConfirm" id="PasswordConfirm" placeholder="Confirm your password">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="form-control btn-hover color-4" style="margin-left:38vh;">REGISTER</button>
+            </div>
+        </form>
+        <div class="col-sm-1 col-md-3"></div>
+    </div>
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="asset/script/scriptSideNav.js"></script>
+</body>
+
+</html>
